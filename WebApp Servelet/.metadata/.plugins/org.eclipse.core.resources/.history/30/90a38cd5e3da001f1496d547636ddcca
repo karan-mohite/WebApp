@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>k</servlet-name>
+		<servlet-class>com.svit.servlet.BinaryServlet</servlet-class>
+	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>k</servlet-name>
+		<url-pattern>/imggurl</url-pattern>
+	
+	</servlet-mapping>
+
+</web-app>

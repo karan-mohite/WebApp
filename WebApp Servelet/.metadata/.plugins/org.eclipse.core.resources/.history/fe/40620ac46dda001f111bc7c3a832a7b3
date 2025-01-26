@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 style="color:RED; text-align:center">Age Eligiblity</h1>
+<form action="http://localhost:8082/ageurl"method="GET">
+<br>
+Person_Name:<input type="text" name="pname">
+</br>
+<br>
+Person_Age:<input type="text" name="page">
+</br>
+<br>
+Person_Phone_No:<input type="text" name="pnum">
+</br>
+</form>
+</body>
+</html>

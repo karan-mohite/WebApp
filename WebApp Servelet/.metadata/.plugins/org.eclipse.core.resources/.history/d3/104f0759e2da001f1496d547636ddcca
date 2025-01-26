@@ -1,0 +1,5 @@
+package com.svit.servlet;
+
+public class BinaryServlet {
+
+}

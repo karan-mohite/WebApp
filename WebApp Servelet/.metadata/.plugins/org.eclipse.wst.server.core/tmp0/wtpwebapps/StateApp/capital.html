@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 style="color:RED"; text-align="center">Html to Servlete Communication</h1>
+<form name="capitalFrm" action="capitalurl" method="POST">
+	<select name="State" onchange="send()">
+		<option value="0" >	Maharashtra</option>
+	    <option value="1" > Bihar</option>
+		<option value="2" >	Gujrat</option>
+	</select>
+
+</form>
+	<script language="javascript">
+	function send()
+	{
+		capitalFrm.submit();
+	}
+	</script>
+</body>
+</html>

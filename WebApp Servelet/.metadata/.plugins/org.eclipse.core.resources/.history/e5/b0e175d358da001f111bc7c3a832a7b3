@@ -1,0 +1,40 @@
+package com.svit.servlet;
+import java.util.*; 
+import javax.servlet.http.*;
+import java.io.PrintWriter;
+import java.time.LocalDateTime;
+import java.io.*;
+public class WishServlet extends HttpServlet 
+{
+	public void service(HttpServletRequest req,)
+	{
+		res.setContentType("text/html");
+		PrintWriter pw=res.getWriter();
+		res.setHeader("refresh","10");
+		LocalDateTime ldt=LocalDateTime.now();
+
+		int hour=ldt.getHour();
+		
+		if(hour>=1 |hour<=12)
+		{
+			pw.println("Good Afternoon");
+		}
+		else if(hour>=12 |hour<=16)
+		{
+			pw.println("Good Afternoon");
+		}
+		else if(hour>=16 |hour<=21)
+		{
+			pw.println("Good Evining");
+		}
+		else if(hour>=21 |hour<=24)
+		{
+			pw.println("Good Night");
+		}
+
+           pw.close();
+
+	}
+	
+
+}
